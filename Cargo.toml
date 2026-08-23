@@ -1,0 +1,21 @@
+[package]
+name = "leetcode-rs"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "leetcode_rs"
+path = "src/lib.rs"
+
+
+[dependencies]
+automod = "1.0.2"
+criterion = "0.8.2"
+rand = "0.8"
+
+[dev-dependencies]
+criterion = "0.8.2"
+
+[[bench]]
+name = "kth_smallest_bench"
+harness = false

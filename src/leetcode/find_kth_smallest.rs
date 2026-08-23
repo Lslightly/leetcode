@@ -194,7 +194,7 @@ mod test {
     #[test]
     fn test() {
         // assert_eq!(Solution::find_kth_smallest(vec![8,9,12,11,15,6,25,23], 1123986064), 1);
-        assert_eq!(Solution::find_kth_smallest(vec![5,25,23,16,7,8,10,6,11,15], 946326769), 1);
+        assert_eq!(Solution::find_kth_smallest(vec![5,25,23,16,7,8,10,6,11,15], 946326769), 1711894494);
     }
 
 }

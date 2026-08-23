@@ -7,6 +7,8 @@ mod largest_integer;
 mod search_range;
 mod check_divisibility;
 pub mod find_kth_smallest;
+mod result_array_3069;
+mod max_number_of_families_1386;
 
 /// 解析 LeetCode 层序数组字符串（如 `"[3,9,20,null,null,15,7]"`）为 `Vec<Option<i32>>`。
 /// `[]` 或 `""` 返回空 vec；非法 token 直接 panic。

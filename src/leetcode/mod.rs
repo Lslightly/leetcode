@@ -12,6 +12,7 @@ mod max_number_of_families_1386;
 // mod lex_greater_permutation;
 mod largest_overlap;
 mod check_overlap;
+mod min_sum_of_lengths;
 
 /// 解析 LeetCode 层序数组字符串（如 `"[3,9,20,null,null,15,7]"`）为 `Vec<Option<i32>>`。
 /// `[]` 或 `""` 返回空 vec；非法 token 直接 panic。
